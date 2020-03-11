@@ -1,0 +1,201 @@
+h1 {
+    margin-top: 50px;
+    font-size: 28px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 4px;
+}
+
+h5 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+     margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+p, .test, .button1, .form, .POST {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+
+#button1 {
+    margin-top: 4px;
+}
+
+.link {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+
+.link2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+}
+
+.list, ul {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+    text-align:center;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+ul {
+   display:inline-table;
+}
+
+#dwnld {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom:0%;
+    align-content: center;
+    border: 1pt solid black;
+    background-color: #738290;
+    color: #A1B5D8;
+    display: inline-block;
+    text-decoration: none;
+    text-emphasis-color: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#button2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 3px;
+    font-weight: bold;
+    border: 1pt solid black;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+#nav {
+    position: fixed;
+    top: 0px;
+    float: inline;
+    background-color: #738290;
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#nav ul {
+    list-style: none;
+    display:inline;
+    margin-bottom: 10px;
+}
+
+#nav li {
+    display: inline;
+    font-size: 14pt;
+    float: inline;
+    padding: 10px 20px 10px 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Adapted from Sams Teach Yourself: HTML and CSS */
+#nav ul li a:link, #nav ul li a:visited {
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #738290;
+    color: #FFFCF7;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#nav ul li a:hover, #nav ul li a:active {
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #738290;
+    color:#A1B5D8;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+html, body { 
+    height: 100%; 
+    width: 100%; 
+}
+
+body {
+    background-color: #FFFCF7;
+}
+
+/* Adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    margin-top: 10px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.box {
+    width: 1000px;
+    height: 800px;
+    overflow: auto;
+    position: relative;
+    /* z-index: -1; */
+    max-width: 1000px;
+}
